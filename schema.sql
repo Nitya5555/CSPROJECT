@@ -21,16 +21,6 @@ CREATE TABLE Crime (
     Criminal_ID INT
 );
 
-'''CREATE TABLE Officer (
-    Officer_ID INT PRIMARY KEY,
-    First_Name VARCHAR(30),
-    Last_Name VARCHAR(30),
-    Rank VARCHAR(30),
-    Age INT,
-    Department VARCHAR(30),
-    Experience INT
-);'''
-
 CREATE TABLE Officer (
     Officer_ID INT PRIMARY KEY,
     First_Name VARCHAR(30),
