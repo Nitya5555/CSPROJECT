@@ -23,12 +23,12 @@ CREATE TABLE Crime (
 
 CREATE TABLE Officer (
     Officer_ID INT PRIMARY KEY,
-    First_Name VARCHAR(30),
-    Last_Name VARCHAR(30),
-    Rank VARCHAR(15),
+    First_name VARCHAR(30),
+    Last_name VARCHAR(30),
+    Rank_of_officer VARCHAR(15),
     Age INT,
     Department VARCHAR(30),
-    Experience_in_years INT
+    Experience INT
 );
 
 CREATE TABLE Investigation (
