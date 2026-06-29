@@ -1,6 +1,6 @@
 CREATE DATABASE CrimeDB;
 USE CrimeDB;
-CREATE TABLE Criminals (
+CREATE TABLE Criminal (
     Criminal_ID INT PRIMARY KEY,
     First_name VARCHAR(30),
     Last_name VARCHAR(30),
@@ -12,7 +12,7 @@ CREATE TABLE Criminals (
     Status_of_arrest VARCHAR(30)
 );
 
-CREATE TABLE Crimes (
+CREATE TABLE Crime (
     Crime_ID INT PRIMARY KEY,
     Crime_type VARCHAR(40),
     Date_of_crime DATE,
@@ -21,7 +21,7 @@ CREATE TABLE Crimes (
     Criminal_ID INT
 );
 
-CREATE TABLE Officers (
+CREATE TABLE Officer (
     Officer_ID INT PRIMARY KEY,
     First_Name VARCHAR(30),
     Last_Name VARCHAR(30),
